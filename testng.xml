@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" thread-count="1" verbose="2">
+<suite name="All Test Suite" parallel="tests" thread-count="2" verbose="2" preserve-order="true">
 
-    <test verbose="2" preserve-order="true" name="Chrome">
-        <parameter name="browser" value="chrome" />
-        <parameter name="url" value="https://kadam-admin-fe.web.app/" />
+    <test name="Chrome Tests" verbose="2">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://kadam-admin-fe.web.app/"/>
         <classes>
-            <class name="org.kadam.SignInPageTest">
-                <methods>
-                    <include name="signInpageUI"/>
-                    <include name="loginTestFlow"/>
-                    <include name="loginRealFlow"/>
-                </methods>
-            </class>
+            <class name="org.kadam.SignInPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Edge Tests" verbose="2">
+        <parameter name="browser" value="edge"/>
+        <parameter name="url" value="https://kadam-admin-fe.web.app/"/>
+        <classes>
+            <class name="org.kadam.SignInPageTest"/>
         </classes>
     </test>
 

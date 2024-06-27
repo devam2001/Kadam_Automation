@@ -1,6 +1,5 @@
 package org.kadam;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.util.ResourceBundle;

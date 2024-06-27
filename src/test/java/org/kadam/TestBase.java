@@ -6,19 +6,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 public class TestBase {
 
-    public static WebDriver driver;
+    public WebDriver driver;
 
 
     @Parameters({"browser","url"})
-    @BeforeClass
-    public static void setupBrowser(String browser, String url){
+    @BeforeTest
+    public void setupBrowser(String browser, String url){
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -32,10 +29,14 @@ public class TestBase {
             driver = new EdgeDriver();
         }
         driver.manage().window().maximize();
-        driver.get(url);
+        driver.get("https://kadam-admin-fe.web.app/");
     }
 
-    @AfterClass
-    public void closeBrowser(){driver.close();}
+    @AfterTest
+    public void closeBrowser(){
+                if (driver != null) {
+            driver.quit();
+        }
+    }
 
 }

@@ -7,10 +7,12 @@
     <list default="true" id="2b16c1a4-16ac-4d30-b5c0-3f4f126a85c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kadam/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kadam/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testcreds.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testcreds.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/kadam/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kadam/SignInPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/kadam/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kadam/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kadam/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kadam/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kadam/SignInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/kadam/SignInPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kadam/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/kadam/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,32 +41,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Antino/IdeaProjects/Kadam_Automation/testng.xml.executor": "Run",
-    "TestNG.SignInPageTest.executor": "Run",
-    "TestNG.SignInPageTest.signInpageUI.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Antino/IdeaProjects/Kadam_Automation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageTest.signInpageUI.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.org.kadam.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="SignInPageTest.signInpageUI" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Kadam_Automation" />
+    <configuration name="org.kadam" type="TestNG" temporary="true" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.kadam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="org.kadam" />
-      <option name="MAIN_CLASS_NAME" value="org.kadam.SignInPageTest" />
-      <option name="METHOD_NAME" value="signInpageUI" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -73,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SignInPageTest.signInpageUI" />
+        <item itemvalue="TestNG.org.kadam" />
       </list>
     </recent_temporary>
   </component>
