@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b16c1a4-16ac-4d30-b5c0-3f4f126a85c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kadam/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kadam/SignInPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kadam/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kadam/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/kadam/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kadam/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kadam/SignInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/kadam/SignInPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/kadam/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/kadam/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/Antino/IdeaProjects/Kadam_Automation/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageTest.signInpageUI.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.org.kadam.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Antino/IdeaProjects/Kadam_Automation/testng.xml.executor": "Run",
+    "TestNG.SignInPageTest.executor": "Run",
+    "TestNG.SignInPageTest.signInpageUI.executor": "Run",
+    "TestNG.org.kadam.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="org.kadam" type="TestNG" temporary="true" nameIsGenerated="true">
       <shortenClasspath name="NONE" />
